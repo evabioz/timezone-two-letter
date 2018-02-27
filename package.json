@@ -1,0 +1,22 @@
+{
+  "name": "timezone-two-letter",
+  "version": "1.0.0",
+  "description": "Simple parse timezone to two-letter country codes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evabioz/timezone-two-letter.git"
+  },
+  "keywords": [
+    "country",
+    "timezone",
+    "ISO",
+    "3166-1",
+    "alpha-2"
+  ],
+  "author": "EvabioZ",
+  "license": "MIT"
+}
