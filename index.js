@@ -4,10 +4,13 @@ var libraries = {
 
 	raw: rawData,
 
-	getTwoLetter: function(timezone_name) {
+	parse: function(timezone_name) {
+		if (!timezone_name) {
+			return;
+		}
 		var i = timezone_name.lastIndexOf("/");
 		var key = timezone_name.substr(i + 1);
-	  return rawData[key];
+		return rawData[key];
 	}
 
 };

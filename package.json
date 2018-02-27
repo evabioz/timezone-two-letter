@@ -1,6 +1,6 @@
 {
   "name": "timezone-two-letter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple parse timezone to two-letter country codes.",
   "main": "index.js",
   "scripts": {
